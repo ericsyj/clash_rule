@@ -26,11 +26,12 @@ DOMAIN,us-east.ezil.me
 DOMAIN,us-west.ezil.me
 
 #hiveon
+DOMAIN-SUFFIX,hiveon.net
 DOMAIN-SUFFIX,hiveon.com
 DOMAIN,eth.hiveon.com
-DOMAIN,ru-eth.hiveon.com
-DOMAIN,na-eth.hiveon.com
-DOMAIN,eu-eth.hiveon.com
+DOMAIN,ru-eth.hiveon.net
+DOMAIN,na-eth.hiveon.net
+DOMAIN,eu-eth.hiveon.net
 DOMAIN,aspac-eth.hiveon.net
 DOMAIN,etc.hiveon.com
 DOMAIN,aspac-etc.hiveon.net
