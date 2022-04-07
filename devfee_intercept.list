@@ -26,6 +26,7 @@ DOMAIN,us-east.ezil.me
 DOMAIN,us-west.ezil.me
 
 #hiveon
+DOMAIN-SUFFIX,hiveon.com
 DOMAIN,eth.hiveon.com
 DOMAIN,ru-eth.hiveon.com
 DOMAIN,na-eth.hiveon.com
@@ -45,6 +46,9 @@ DOMAIN,eth.2miners.com
 DOMAIN,asia-etc.2miners.com
 DOMAIN,us-etc.2miners.com
 DOMAIN,etc.2miners.com
+DOMAIN,erg.2miners.com
+DOMAIN,asia-erg.2miners.com
+DOMAIN,us-erg.2miners.com
 
 #others
 DOMAIN-SUFFIX,f2pool.com
@@ -63,6 +67,3 @@ DOMAIN-SUFFIX,maxhash.org
 DOMAIN-SUFFIX,toncoinpool.io
 DOMAIN-SUFFIX,herominers.com
 DOMAIN-SUFFIX,666pool.com
-DOMAIN,erg.2miners.com
-DOMAIN,asia-erg.2miners.com
-DOMAIN,us-erg.2miners.com
