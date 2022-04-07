@@ -27,6 +27,11 @@ DOMAIN,us-west.ezil.me
 
 #hiveon
 DOMAIN,eth.hiveon.com
+DOMAIN,ru-eth.hiveon.com
+DOMAIN,na-eth.hiveon.com
+DOMAIN,eu-eth.hiveon.com
+DOMAIN,aspac-eth.hiveon.net
+DOMAIN,etc.hiveon.com
 DOMAIN,aspac-etc.hiveon.net
 DOMAIN,na-etc.hiveon.net
 DOMAIN,eu-etc.hiveon.net
