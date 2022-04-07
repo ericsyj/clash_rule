@@ -28,14 +28,6 @@ DOMAIN,us-west.ezil.me
 #hiveon
 DOMAIN-SUFFIX,hiveon.net
 DOMAIN-SUFFIX,hiveon.com
-DOMAIN,ru-eth.hiveon.net
-DOMAIN,naw-eth.hiveon.net
-DOMAIN,eu-eth.hiveon.net
-DOMAIN,aspac-eth.hiveon.net
-DOMAIN,aspac-etc.hiveon.net
-DOMAIN,na-etc.hiveon.net
-DOMAIN,eu-etc.hiveon.net
-DOMAIN,ru-etc.hiveon.net
 
 #2miners
 DOMAIN-SUFFIX,2miners.com
