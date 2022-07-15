@@ -5,4 +5,4 @@ DOMAIN-KEYWORD,bigolive
 DOMAIN-KEYWORD,moonlight
 DOMAIN-KEYWORD,parsec
 PROCESS-NAME,parsecd.exe
-nvstreamer.exe
+PROCESS-NAME,nvstreamer.exe
