@@ -24,6 +24,7 @@ DOMAIN,hk.ezil.me
 DOMAIN,tw.ezil.me
 DOMAIN,us-east.ezil.me
 DOMAIN,us-west.ezil.me
+DOMAIN-SUFFIX,etc.ezil.me
 
 #hiveon
 DOMAIN-SUFFIX,hiveon.net
