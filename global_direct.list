@@ -6,5 +6,5 @@ DOMAIN-KEYWORD,moonlight
 DOMAIN-KEYWORD,parsec
 PROCESS-NAME,parsecd.exe
 PROCESS-NAME,nvstreamer.exe
-DOMAIN-SUFFIX,detectportal.firefox.com
-DOMAIN-SUFFIX,resolver1.opendns.com
+DOMAIN,detectportal.firefox.com
+DOMAIN,resolver1.opendns.com
