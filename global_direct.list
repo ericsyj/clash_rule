@@ -8,3 +8,4 @@ PROCESS-NAME,parsecd.exe
 PROCESS-NAME,nvstreamer.exe
 DOMAIN,detectportal.firefox.com
 DOMAIN,resolver1.opendns.com
+PROCESS-NAME,DownloadSDKServer.exe
