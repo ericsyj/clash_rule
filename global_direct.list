@@ -9,3 +9,6 @@ PROCESS-NAME,nvstreamer.exe
 DOMAIN,detectportal.firefox.com
 DOMAIN,resolver1.opendns.com
 PROCESS-NAME,DownloadSDKServer.exe
+DOMAIN-SUFFIX,tsutsu.one
+DOMAIN-SUFFIX,flgwls.com
+DOMAIN-SUFFIX,ratkit8r7glfj2hqot6z.xyz
