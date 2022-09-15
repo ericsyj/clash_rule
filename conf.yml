@@ -12,6 +12,8 @@ dns:
     - tls://223.6.6.6
     - tls://223.5.5.5
     - tls://1.12.12.12
+    - tls://120.53.53.53
+    - https://[2001:4860:4860::64]/dns-query
     - https://[2001:4860:4860::6464]/dns-query
   fake-ip-filter:
     - alt1-mtalk.google.com
