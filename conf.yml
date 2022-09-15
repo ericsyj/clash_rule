@@ -4,17 +4,19 @@ allow-lan: false
 mode: Rule
 log-level: info
 external-controller: :9090
+hosts: 
+  '127871.alidns.com': 2400:3200::1
+  'dns.alidns.com': 2400:3200:baba::1
 dns:
   enable: true
   ipv6: true
   enhanced-mode: fake-ip
+  use-hosts: true
   nameserver:
     - tls://223.6.6.6
     - tls://223.5.5.5
-    - tls://1.12.12.12
-    - tls://120.53.53.53
-    - https://[2001:4860:4860::64]/dns-query
-    - https://[2001:4860:4860::6464]/dns-query
+    - tls://dns.alidns.com
+    - tls://127871.alidns.com
   fake-ip-filter:
     - alt1-mtalk.google.com
     - alt2-mtalk.google.com
