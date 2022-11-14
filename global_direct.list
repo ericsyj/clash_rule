@@ -2,13 +2,5 @@ DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,amd
 DOMAIN-KEYWORD,bigo
 DOMAIN-KEYWORD,bigolive
-DOMAIN-KEYWORD,moonlight
-DOMAIN-KEYWORD,parsec
-PROCESS-NAME,parsecd.exe
-PROCESS-NAME,nvstreamer.exe
 DOMAIN,detectportal.firefox.com
 DOMAIN,resolver1.opendns.com
-PROCESS-NAME,DownloadSDKServer.exe
-DOMAIN-SUFFIX,tsutsu.one
-DOMAIN-SUFFIX,flgwls.com
-DOMAIN-SUFFIX,ratkit8r7glfj2hqot6z.xyz
