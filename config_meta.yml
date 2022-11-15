@@ -116,3 +116,10 @@ dns:
     - "*.alicdn.com"
     - "*.aliyuncs.com"
     - time.google.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
