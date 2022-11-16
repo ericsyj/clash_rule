@@ -16,6 +16,8 @@ dns:
   nameserver:
     - tls://223.6.6.6
     - tls://223.5.5.5
+    - tls://1.12.12.12
+    - tls://120.53.53.53
     - tls://dns.alidns.com
     - tls://127871.alidns.com
   fake-ip-filter:
