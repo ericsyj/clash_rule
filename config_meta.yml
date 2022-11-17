@@ -6,9 +6,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 tcp-concurrent: true
-hosts: 
-  '127871.alidns.com': 2400:3200::1
-  'dns.alidns.com': 2400:3200:baba::1
 dns:
   enable: true
   ipv6: true
