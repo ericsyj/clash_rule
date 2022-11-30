@@ -17,11 +17,8 @@ dns:
   nameserver:
     - quic://cn-east.ovo.glass
     - https://223.6.6.6/dns-query#h3=true
-    - https://223.5.5.5/dns-query#h3=true
     - tls://223.6.6.6
-    - tls://223.5.5.5
     - tls://1.12.12.12
-    - tls://120.53.53.53
   fake-ip-filter:
     - alt1-mtalk.google.com
     - alt2-mtalk.google.com
