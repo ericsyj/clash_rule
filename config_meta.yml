@@ -5,7 +5,7 @@ ipv6: true
 mode: Rule
 log-level: info
 external-controller: :9090
-tcp-concurrent: true
+#tcp-concurrent: true
 hosts:
   'cn-east.lele233.com': 112.132.212.159
   'cn-east.ovo.glass': 112.132.212.159
