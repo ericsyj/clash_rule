@@ -4,3 +4,4 @@ DOMAIN-KEYWORD,moonlight
 PROCESS-NAME,Moonlight.exe
 PROCESS-NAME,nvstreamer.exe
 PROCESS-NAME,DownloadSDKServer.exe
+IP-CIDR,52.86.26.213/32
