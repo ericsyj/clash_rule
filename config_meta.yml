@@ -2,6 +2,7 @@ tcp-concurrent: true
 hosts:
   'cn-east.lele233.com': 112.132.212.159
   'cn-east.ovo.glass': 112.132.212.159
+  'dns.alidns.com': 2400:3200:baba::1
 dns:
   enable: true
   ipv6: true
@@ -10,9 +11,9 @@ dns:
   prefer-h3: true
   nameserver:
     - quic://cn-east.ovo.glass
-    - https://223.6.6.6/dns-query#h3=true
-    - tls://223.6.6.6
-    - tls://1.12.12.12
+    - https://223.6.6.6/dns-query
+    - https://1.12.12.12/dns-query
+    - https://dns.alidns.com/dns-query
   fake-ip-filter:
     - alt1-mtalk.google.com
     - alt2-mtalk.google.com
