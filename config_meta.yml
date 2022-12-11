@@ -10,7 +10,7 @@ dns:
   use-hosts: true
   prefer-h3: true
   nameserver:
-    - quic://cn-east.ovo.glass
+    - https://cn-east.lele233.com/dns-query
     - https://223.6.6.6/dns-query
     - https://1.12.12.12/dns-query
     - https://dns.alidns.com/dns-query
