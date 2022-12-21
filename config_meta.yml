@@ -1,7 +1,8 @@
 tcp-concurrent: true
+sniffer: {enable: true, sniffing: [tls, http]}
 hosts:
   'cn-east.lele233.com': 112.132.212.159
-  'cn-east.ovo.glass': 112.132.212.159
+  #'cn-east.ovo.glass': 112.132.212.159
   'dns.alidns.com': 2400:3200:baba::1
 dns:
   enable: true
