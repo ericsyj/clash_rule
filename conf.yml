@@ -1,3 +1,5 @@
+experimental:
+  sniff-tls-sni: true
 hosts: 
   'dns.alidns.com': 2400:3200:baba::1
   'cn-east.lele233.com': 112.132.212.159
