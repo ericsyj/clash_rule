@@ -2,3 +2,4 @@ DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,amd
 DOMAIN,detectportal.firefox.com
 DOMAIN,resolver1.opendns.com
+IP-CIDR6,FF00::/8,no-resolve
