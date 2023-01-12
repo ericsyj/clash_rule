@@ -6,6 +6,7 @@ hosts:
   'cn-south.lele233.com': 59.34.148.98
 dns:
   enable: true
+  prefer-h3: true
   ipv6: true
   enhanced-mode: fake-ip
   use-hosts: true
