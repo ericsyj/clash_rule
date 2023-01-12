@@ -1,0 +1,14 @@
+payload:
+  - DOMAIN-KEYWORD,parsec
+  - PROCESS-NAME,parsecd.exe
+  - DOMAIN-KEYWORD,moonlight
+  - PROCESS-NAME,Moonlight.exe
+  - PROCESS-NAME,nvstreamer.exe
+  - PROCESS-NAME,DownloadSDKServer.exe
+  - IP-CIDR,52.86.26.213/32,no-resolve
+  - IP-CIDR,52.221.135.205/32,no-resolve
+  - IP-CIDR6,2406:da18:36f:3302:bd50:a456:8b3f:1e22/128,no-resolve
+  - IP-CIDR,54.151.203.120/32,no-resolve
+  - IP-CIDR6,2406:da18:218:2500:7b02:79fe:1b02:f00c/128,no-resolve
+  - DOMAIN-KEYWORD,ericeasy520
+  - DOMAIN-SUFFIX,cloudfront.net
