@@ -1,3 +1,4 @@
+external-ui: ui
 tcp-concurrent: true
 sniffer: {enable: true, sniffing: [tls, http], skip-domain: [api.cloud.189.cn]}
 hosts: 
