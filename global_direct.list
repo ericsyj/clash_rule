@@ -1,3 +1,4 @@
+IP-CIDR6,ff00::/8
 DOMAIN-KEYWORD,nvidia
 DOMAIN-KEYWORD,amd
 DOMAIN,detectportal.firefox.com
