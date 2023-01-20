@@ -3,17 +3,17 @@ experimental:
   sniff-tls-sni: true
 hosts: 
   'dns.alidns.com': 2400:3200:baba::1
-  'cn-east.lele233.com': 112.132.212.159
-  'cn-south.lele233.com': 59.34.148.98
+  'cn-east.iqiqzz.com': 112.132.212.159
+  'cn-south.iqiqzz.com': 59.34.148.98
 dns:
   enable: true
   ipv6: true
   enhanced-mode: fake-ip
   use-hosts: true
   nameserver:
-    - https://cn-east.lele233.com/dns-query
+    - https://cn-east.iqiqzz.com/dns-query
     - https://223.6.6.6/dns-query
-    - https://cn-south.lele233.com/dns-query
+    - https://cn-south.iqiqzz.com/dns-query
     - https://dns.alidns.com/dns-query
   fake-ip-filter:
     - alt1-mtalk.google.com
