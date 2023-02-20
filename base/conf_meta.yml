@@ -3,6 +3,10 @@ external-ui: ui
 tcp-concurrent: true
 #sniffer: {enable: true, sniff: {http: {ports: [1-65535]}, tls: {ports: [1-65535]}}, skip-domain: ['courier.push.apple.com', 'Mijia Cloud', 'api.cloud.189.cn']}
 #sniffer: {enable: true, sniffing: [tls, http], skip-domain: [api.cloud.189.cn]}  #已废弃
+geox-url:
+  geoip: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat"
+  geosite: "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+  mmdb: "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
 hosts: 
   'dns.alidns.com': 2400:3200:baba::1
   'cn-east.iqiqzz.com': 112.132.212.159
