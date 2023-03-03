@@ -1,0 +1,224 @@
+version = 1
+[custom]
+enable_rule_generator = true
+overwrite_original_rules = true
+
+clash_rule_base = "base/aws.yml"
+
+[[custom_groups]]
+name = "🚀 节点选择"
+type = "select"
+rule = ["[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "🚀 手动切换"
+type = "select"
+rule = [".*", "!!PROVIDER=aws", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "🖥️ parsec"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]REJECT"]
+
+[[custom_groups]]
+name = "📲 电报消息"
+type = "select"
+rule = ["[]🚀 节点选择", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "📢 谷歌推送"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]REJECT"]
+
+[[custom_groups]]
+name = "🎥 奈飞解锁"
+type = "select"
+rule = ["[]🚀 节点选择", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "📺 油管视频"
+type = "select"
+rule = ["[]🚀 节点选择", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "Ⓜ️ 微软服务"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]REJECT"]
+
+[[custom_groups]]
+name = "🍎 苹果服务"
+type = "select"
+rule = ["[]DIRECT", "[]🚀 节点选择", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]REJECT"]
+
+[[custom_groups]]
+name = "🐟 漏网之鱼"
+type = "select"
+rule = ["[]🚀 节点选择", "[]🇸🇬 新加坡-负载均衡-轮询", "[]🇭🇰 香港-负载均衡-轮询", "[]🇨🇳 台湾-负载均衡-轮询", "[]🇯🇵 日本-负载均衡-轮询", "[]🇰🇷 韩国-负载均衡-轮询", "[]🇺🇲 美国-负载均衡-轮询", "[]🇸🇬 aws-负载均衡-轮询", "[]🇸🇬 aws-nocdn-负载均衡-轮询", "[]🇸🇬 awsVIAcdn-负载均衡-轮询", "[]🇸🇬 ec2-负载均衡-轮询", "[]🇸🇬 lightsail-负载均衡-轮询", "[]🇸🇬 ec2-nocdn-负载均衡-轮询", "[]🇸🇬 lightsail-nocdn-负载均衡-轮询", "[]🇸🇬 awsv4-负载均衡-轮询", "[]🇸🇬 awsv6-负载均衡-轮询", "[]🚀 手动切换", ".*", "!!PROVIDER=aws", "[]DIRECT", "[]REJECT"]
+
+[[custom_groups]]
+name = "🇭🇰 香港-负载均衡-轮询"
+type = "load-balance"
+rule = ["(港|HK|Hong Kong)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇯🇵 日本-负载均衡-轮询"
+type = "load-balance"
+rule = ["(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇰🇷 韩国-负载均衡-轮询"
+type = "load-balance"
+rule = ["(KR|Korea|KOR|首尔|韩|韓)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇺🇲 美国-负载均衡-轮询"
+type = "load-balance"
+rule = ["(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇨🇳 台湾-负载均衡-轮询"
+type = "load-balance"
+rule = ["(台|新北|彰化|TW|Taiwan)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 新加坡-负载均衡-轮询"
+type = "load-balance"
+rule = ["(新加坡|坡|狮城|SG|Singapore)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 aws-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(vless|cdn)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 aws-nocdn-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(vless)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 awsVIAcdn-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(cdn)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 ec2-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(vmess|trojan)).*ec2.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 lightsail-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(vmess|trojan)).*lightsail.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 ec2-nocdn-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(lightsail)).*vless.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 lightsail-nocdn-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(ec2)).*vless.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 awsv4-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(vmess|trojan)).*v4.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[custom_groups]]
+name = "🇸🇬 awsv6-负载均衡-轮询"
+type = "load-balance"
+rule = ["!!PROVIDER=aws!!(^(?!.*(vmess|trojan)).*v6.*$)"]
+interval = 100
+strategy = "round-robin"
+url = "http://www.gstatic.com/generate_204"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/ericsyj/clash_rule/main/global_direct.list"
+
+[[rulesets]]
+group = "🚀 节点选择"
+ruleset = "https://raw.githubusercontent.com/ericsyj/clash_rule/main/proxy.list"
+
+[[rulesets]]
+group = "🖥️ parsec"
+ruleset = "https://raw.githubusercontent.com/ericsyj/clash_rule/main/parsec.list"
+
+[[rulesets]]
+group = "📢 谷歌推送"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list"
+
+[[rulesets]]
+group = "🎥 奈飞解锁"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/Netflix.list"
+
+[[rulesets]]
+group = "📺 油管视频"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Global-Services/YouTube.list"
+
+[[rulesets]]
+group = "Ⓜ️ 微软服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Microsoft.list"
+
+[[rulesets]]
+group = "🍎 苹果服务"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/Apple.list"
+
+[[rulesets]]
+group = "📲 电报消息"
+ruleset = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+
+[[rulesets]]
+group = "🌍 国外媒体"
+ruleset = "https://raw.githubusercontent.com/LM-Firefly/Rules/master/GlobalMedia.list"
+
+[[rulesets]]
+group = "🎯 全球直连"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
+group = "🐟 漏网之鱼"
+ruleset = "[]FINAL"
