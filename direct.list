@@ -1,13 +1,4 @@
 IP-CIDR6,ff00::/8
-DOMAIN-KEYWORD,nvidia
-DOMAIN-KEYWORD,amd
-DOMAIN,detectportal.firefox.com
-DOMAIN,resolver1.opendns.com
-DOMAIN-KEYWORD,parsec
-PROCESS-NAME,parsecd.exe
-DOMAIN-KEYWORD,moonlight
-PROCESS-NAME,Moonlight.exe
-PROCESS-NAME,nvstreamer.exe
 PROCESS-NAME,DownloadSDKServer.exe
 IP-CIDR,52.86.26.213/32,no-resolve
 IP-CIDR,52.221.135.205/32,no-resolve
