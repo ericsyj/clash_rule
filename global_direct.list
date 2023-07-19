@@ -1,4 +1,4 @@
-IP-CIDR6,ff00::/8
+IP-CIDR6,ff00::/8,no-resolve
 PROCESS-NAME,DownloadSDKServer.exe
 IP-CIDR,52.86.26.213/32,no-resolve
 IP-CIDR,52.221.135.205/32,no-resolve
